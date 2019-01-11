@@ -218,6 +218,42 @@
     <Reference Include="TidyNet, Version=1.0.0.0, Culture=neutral">
       <HintPath>..\packages\UmbracoCms.Core.7.13.0\lib\net45\TidyNet.dll</HintPath>
     </Reference>
+    <Reference Include="UCommerce, Version=8.0.0.18352, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\UCommerce.dll</HintPath>
+    </Reference>
+    <Reference Include="UCommerce.Infrastructure, Version=8.0.0.18352, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\UCommerce.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="UCommerce.Installer, Version=8.0.0.18352, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\UCommerce.Installer.dll</HintPath>
+    </Reference>
+    <Reference Include="UCommerce.NHibernate, Version=8.0.0.18352, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\UCommerce.NHibernate.dll</HintPath>
+    </Reference>
+    <Reference Include="UCommerce.Pipelines, Version=8.0.0.18352, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\UCommerce.Pipelines.dll</HintPath>
+    </Reference>
+    <Reference Include="UCommerce.Presentation, Version=8.0.0.18352, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\UCommerce.Presentation.dll</HintPath>
+    </Reference>
+    <Reference Include="UCommerce.SystemHttp, Version=8.0.0.18352, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\UCommerce.SystemHttp.dll</HintPath>
+    </Reference>
+    <Reference Include="UCommerce.SystemWeb, Version=8.0.0.18352, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\UCommerce.SystemWeb.dll</HintPath>
+    </Reference>
+    <Reference Include="UCommerce.Umbraco7, Version=8.0.0.18352, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\UCommerce.Umbraco7.dll</HintPath>
+    </Reference>
     <Reference Include="umbraco, Version=1.0.6942.23082, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\UmbracoCms.Core.7.13.0\lib\net45\umbraco.dll</HintPath>
     </Reference>
@@ -274,11 +310,99 @@
     <Content Include="config\Lang\ru-RU.user.xml" />
     <Content Include="config\Lang\sv-SE.user.xml" />
     <Content Include="config\Lang\zh-CN.user.xml" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\Site.css" />
+    <Content Include="css\bootstrap.css" />
+    <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\font-awesome.min.css" />
+    <Content Include="css\glyphicons-28-search.png" />
+    <Content Include="css\sass.css" />
+    <Content Include="css\Site.css" />
+    <Content Include="css\tether.css" />
+    <Content Include="css\tether.min.css" />
+    <Content Include="css\uCommerce.bootstrap-responsive.css" />
+    <Content Include="css\uCommerce.bootstrap.css" />
+    <Content Include="css\uCommerce.demostore.css" />
     <Content Include="default.aspx" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="css\bootstrap.css.map" />
+    <Content Include="css\bootstrap.min.css.map" />
+    <Content Include="css\sass.scss" />
+    <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Scripts\jquery-1.10.2.js" />
+    <Content Include="Scripts\jquery-1.10.2.min.js" />
+    <None Include="Scripts\jquery-3.0.0.intellisense.js" />
+    <Content Include="Scripts\jquery-3.0.0.js" />
+    <Content Include="Scripts\jquery-3.0.0.min.js" />
+    <Content Include="Scripts\jquery-3.0.0.slim.js" />
+    <Content Include="Scripts\jquery-3.0.0.slim.min.js" />
+    <None Include="Scripts\jquery-3.1.1.intellisense.js" />
+    <Content Include="Scripts\jquery-3.1.1.js" />
+    <Content Include="Scripts\jquery-3.1.1.min.js" />
+    <Content Include="Scripts\jquery-3.1.1.slim.js" />
+    <Content Include="Scripts\jquery-3.1.1.slim.min.js" />
+    <Content Include="Scripts\jquery.validate.min.js" />
+    <Content Include="Scripts\modernizr-2.6.2.js" />
+    <Content Include="Scripts\tether.js" />
+    <Content Include="Scripts\tether.min.js" />
+    <Content Include="Scripts\uCommerce.bootstrap.js" />
+    <Content Include="Scripts\uCommerce.category.js" />
+    <Content Include="Scripts\uCommerce.demostore.cart.js" />
+    <Content Include="Scripts\uCommerce.demostore.checkout.js" />
+    <Content Include="Scripts\uCommerce.demostore.js" />
+    <Content Include="Scripts\uCommerce.facets.js" />
+    <Content Include="Scripts\uCommerce.jQuery.js" />
+    <Content Include="Scripts\uCommerce.ServiceStack.js" />
     <Content Include="Web.config" />
+    <Content Include="Views\Catalog.cshtml" />
+    <Content Include="Views\PartialView\MiniBasket.cshtml" />
+    <Content Include="Views\MacroPartials\uCommerceMiniBasket.cshtml" />
+    <Content Include="Views\MacroPartials\uCommerceCategoryNavigation.cshtml" />
+    <Content Include="Views\PartialView\CategoryNavigation.cshtml" />
+    <Content Include="Views\MacroPartials\uCommerceFacets.cshtml" />
+    <Content Include="Views\PartialView\Facets.cshtml" />
+    <Content Include="Views\Basket.cshtml" />
+    <Content Include="Scripts\uCommerce.demostore.productpage.js" />
+    <Content Include="Scripts\jquery-3.0.0.min.map" />
+    <Content Include="Scripts\jquery-3.0.0.slim.min.map" />
+    <Content Include="Scripts\jquery-3.1.1.min.map" />
+    <Content Include="Scripts\jquery-3.1.1.slim.min.map" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="API\BasketController.cs" />
+    <Compile Include="API\Model\AddToBasketRequet.cs" />
+    <Compile Include="API\Model\Basket.cs" />
+    <Compile Include="API\Model\CurrencyViewModel.cs" />
+    <Compile Include="API\Model\GetProductInformationRequest.cs" />
+    <Compile Include="API\Model\GetProductVariationsRequest.cs" />
+    <Compile Include="API\Model\GetVariantSkuFromSelectionRequest.cs" />
+    <Compile Include="API\Model\LineItem.cs" />
+    <Compile Include="API\Model\PriceCalculationViewModel.cs" />
+    <Compile Include="API\Model\ProductInformation.cs" />
+    <Compile Include="API\Model\ProductProperty.cs" />
+    <Compile Include="API\Model\ProductVariation.cs" />
+    <Compile Include="API\Model\UpdateLineItemRequest.cs" />
+    <Compile Include="API\ProductController.cs" />
+    <Compile Include="Controllers\BasketController.cs" />
+    <Compile Include="Controllers\BasketpreviewController.cs" />
+    <Compile Include="Controllers\CategoryController.cs" />
+    <Compile Include="Controllers\FacetedQueryStringExtensions.cs" />
+    <Compile Include="Controllers\MiniBasketController.cs" />
+    <Compile Include="Controllers\PartialViewController.cs" />
+    <Compile Include="Controllers\ProductController.cs" />
+    <Compile Include="Model\AddToBasketViewModel.cs" />
+    <Compile Include="Model\CategoryNavigationViewModel.cs" />
+    <Compile Include="Model\CategoryViewModel.cs" />
+    <Compile Include="Model\MiniBasketViewModel.cs" />
+    <Compile Include="Model\OrderlineViewModel.cs" />
+    <Compile Include="Model\ProductPropertiesViewModel.cs" />
+    <Compile Include="Model\ProductViewModel.cs" />
+    <Compile Include="Model\PurchaseOrderViewModel.cs" />
+    <Compile Include="MyServices\SearchProductCRMService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -304,6 +428,9 @@
     <Content Include="config\BackOfficeTours\getting-started.json" />
     <Content Include="config\applications.config" />
     <Content Include="config\404handlers.config" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <None Include="packages.config" />
     <Content Include="Views\Web.config" />
     <Content Include="Views\Partials\Grid\Editors\Textstring.cshtml" />
@@ -316,6 +443,13 @@
     <Content Include="Views\Partials\Grid\Bootstrap3-Fluid.cshtml" />
     <Content Include="Views\Partials\Grid\Bootstrap2.cshtml" />
     <Content Include="Views\Partials\Grid\Bootstrap2-Fluid.cshtml" />
+    <Content Include="Views\Category.cshtml" />
+    <Content Include="Views\Home.cshtml" />
+    <Content Include="Views\Product.cshtml" />
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Layout.cshtml" />
+    <Content Include="Scripts\jquery-1.10.2.min.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -326,6 +460,13 @@
   <ItemGroup>
     <Analyzer Include="..\packages\Microsoft.CodeAnalysis.Analyzers.1.0.0\analyzers\dotnet\cs\Microsoft.CodeAnalysis.Analyzers.dll" />
     <Analyzer Include="..\packages\Microsoft.CodeAnalysis.Analyzers.1.0.0\analyzers\dotnet\cs\Microsoft.CodeAnalysis.CSharp.Analyzers.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Views\Basketpreview\" />
+    <Folder Include="Views\Basket\" />
+    <Folder Include="Views\Category\" />
+    <Folder Include="Views\MiniBasket\" />
+    <Folder Include="Views\Product\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
