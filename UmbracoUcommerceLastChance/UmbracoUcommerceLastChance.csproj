@@ -324,6 +324,7 @@
     <Content Include="css\uCommerce.bootstrap-responsive.css" />
     <Content Include="css\uCommerce.bootstrap.css" />
     <Content Include="css\uCommerce.demostore.css" />
+    <Content Include="DBUser_readme.txt" />
     <Content Include="default.aspx" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
