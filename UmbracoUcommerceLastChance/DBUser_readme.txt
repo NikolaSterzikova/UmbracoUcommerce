@@ -1,3 +1,3 @@
 ﻿To login to Umbraco use 
-user: admin
+user: admin@admin.com
 password: adminadmin

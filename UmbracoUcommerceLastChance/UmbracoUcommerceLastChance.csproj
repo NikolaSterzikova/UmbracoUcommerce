@@ -333,7 +333,6 @@
     <Content Include="css\bootstrap.css.map" />
     <Content Include="css\bootstrap.min.css.map" />
     <Content Include="css\sass.scss" />
-    <Content Include="DBBackup\UmbracoUcommerceLastChance.bak" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -464,6 +463,7 @@
     <Analyzer Include="..\packages\Microsoft.CodeAnalysis.Analyzers.1.0.0\analyzers\dotnet\cs\Microsoft.CodeAnalysis.CSharp.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="DBBackup\" />
     <Folder Include="Views\Basketpreview\" />
     <Folder Include="Views\Basket\" />
     <Folder Include="Views\Category\" />
